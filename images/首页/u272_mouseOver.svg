@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="63px" height="62px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="161px" y="2px" width="63px" height="62px" filterUnits="userSpaceOnUse" id="filter21">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.992156862745098  0 0 0 0 0.819607843137255  0 0 0 0 0.866666666666667  0 0 0 1 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget22">
+      <image preserveAspectRatio="none" style="overflow:visible" width="53" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA0CAYAAAAqunDVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADvSURBVGhD7dRBSgNBEAXQ+j0zNoQR41LdxI0ew9N4Cm/hzTQiGAlmE8GVEUNgMj39LXGO4KbDf1C9qKpNUd2N9PB6a8Q5zS4MVgWgssJkcjDaALO1ge9I8+UdMy9BzHyo2gv12FsMX0jyIxFcIeANw3x574kr0q693oxRmv43AHvxxSwOc1MH+ab2j4sbsJ7C8qkPF3ywMPaWg5Z9mEwLn0TaID+vzrqOEYHR+j0MfjNLQ/8RmiMyo4sRHfj00W76XX0Sm2q72+J47CvJt0c7afnV9cO0maS/rIiIiIiIiIiIiIiIiIiIiIiIyH8y+wFD0HQqTGQkKAAAAABJRU5ErkJggg==" x="161px" y="2px" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -161 -2 )">
+    <use xlink:href="#widget22" filter="url(#filter21)" />
+    <use xlink:href="#widget22" />
+  </g>
+</svg>
